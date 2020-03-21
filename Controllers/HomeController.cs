@@ -15,7 +15,7 @@ namespace FirstDevOpsProject.Controllersf
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = loggerfd;
         }
 
         public IActionResult Index()
