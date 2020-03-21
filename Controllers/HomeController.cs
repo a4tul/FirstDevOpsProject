@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FirstDevOpsProject.Models;
 
-namespace FirstDevOpsProject.Controllersf
+namespace FirstDevOpsProject.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +15,7 @@ namespace FirstDevOpsProject.Controllersf
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = loggerfd;
+            _logger = logger;
         }
 
         public IActionResult Index()
