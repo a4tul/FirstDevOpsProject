@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using FirstDevOpsProject.Models;
 
-namespace FirstDevOpsProject.Controllers
+namespace FirstDevOpsProject.Controllersf
 {
     public class HomeController : Controller
     {
